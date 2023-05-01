@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+    padding: 0 1rem;
+}
+h1{
+    background: gray;
+    padding: 5px;
+    border-radius: 5px;
+    letter-spacing: 0.3;
+}
+.btn{
+    padding: 10px 30px;
+    border-radius: 5px;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    background: gray;
+    letter-spacing: 0.3rem;
+    font-size: 20px;
+}
+
+
+
+@media only screen and (max-width : 450px){
+    h1{
+      font-size: 15px;  
+    }
+    .btn{
+        padding: 4px 4px;
+    }
+}
